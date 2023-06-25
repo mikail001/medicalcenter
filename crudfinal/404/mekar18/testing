@@ -1,0 +1,74 @@
+switch (true) {
+    case bulan == 0:
+    if(angka - median0 > 0){
+        tester = ((angka-median0)/ (sdpositif0-median0) );
+        document.getElementById("zsbbu").value = tester;
+        if(((angka-median0)/ (sdpositif0-median0) ) > 2){
+            statustester = ("Anak anda termasuk dalam kategori gizi lebih");
+            document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median0)/ (sdpositif0-median0) ) < -2){
+        statustester = ("Anak anda termasuk dalam kategori gizi kurang");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median0)/ (sdpositif0-median0)) >=-2  <2){
+        ("Anak anda termasuk dalam kategori normal");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    } else if(angka - median0 < 0){
+        tester = ((angka-median0)/ (median0-sdnegatif0));
+        document.getElementById("zsbbu").value = tester;
+        if(((angka-median0)/ (median0-sdnegatif0)) > 2){
+            statustester =("Anak anda termasuk dalam kategori gizi lebih");
+            document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median0)/ (median0-sdnegatif0)) < -2){
+        statustester =("Anak anda termasuk dalam kategori gizi kurang");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median0)/ (median0-sdnegatif0)) >=-2 <2){
+        statustester =("Anak anda termasuk dalam kategori normal");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    } else {
+    alert('Not Available');
+    }
+    break;
+    case bulan == 1:
+    if(angka - median1 > 0){
+        tester = ((angka-median1)/ (sdpositif1-median1) );
+        document.getElementById("zsbbu").value = tester;
+        if(((angka-median1)/ (sdpositif1-median1) ) > 2){
+            statustester = ("Anak anda termasuk dalam kategori gizi lebih");
+            document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median1)/ (sdpositif1-median1) ) < -2){
+        statustester = ("Anak anda termasuk dalam kategori gizi kurang");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median1)/ (sdpositif1-median1)) >=-2  <2){
+        ("Anak anda termasuk dalam kategori normal");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    } else if(angka - median1 < 0){
+        tester = ((angka-median1)/ (median1-sdnegatif1));
+        document.getElementById("zsbbu").value = tester;
+        if(((angka-median1)/ (median1-sdnegatif1)) > 2){
+            statustester =("Anak anda termasuk dalam kategori gizi lebih");
+            document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median1)/ (median1-sdnegatif1)) < -2){
+        statustester =("Anak anda termasuk dalam kategori gizi kurang");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    else if(((angka-median1)/ (median1-sdnegatif1)) >=-2 <2){
+        statustester =("Anak anda termasuk dalam kategori normal");
+        document.getElementById("statusbbu").value = statustester;
+    }
+    } else {
+    alert('Not Available');
+    }
+    break;
+    default:
+    alert('Not Available');
+}

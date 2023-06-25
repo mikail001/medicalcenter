@@ -1,0 +1,155 @@
+#bb_u{
+    align-content: center;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    size: small;
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+}
+p{
+    color:#4e4646;
+    font-size: medium;
+
+
+    margin-left: 90px;
+}
+
+input{
+
+    font-style: initial;
+    display: inline-block;
+    width: 40%;
+    block-size: 35px;
+    border-style: double;
+}
+
+
+
+/* kotak input angka hitungan atas*/
+#bb{
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#mb{
+    margin-right: 90px;
+    margin-left: 20px;
+}
+
+#sub{
+margin-left: 90px;
+margin-right: 10px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: initial;
+font-weight: bold;
+width: 100px;
+
+}
+
+#hasil{
+    background-color: rgb(212, 211, 211);
+    width: 74.1%;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+/* kotak input angka hitungan bawah*/
+#sb{
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#mb2{
+    margin-right: 90px;
+    margin-left: 20px;
+}
+
+#subi{
+margin-left: 90px;
+margin-right: 10px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: initial;
+font-weight: bold;
+width: 100px;
+
+}
+
+
+
+/* kotak hasil*/
+#hasil12{
+    background-color: rgb(212, 211, 211);
+    width: 83.5%;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+#div{
+    margin-left: 90px;
+margin-right: 10px;
+margin-top: 10px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: inherit;
+font-weight: bold;
+width: 100px;
+}
+
+#judul{
+    margin-left: 325px;
+    font-size: xx-large;
+}
+
+#zscorebbu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+#tomboldatalki{
+    margin-left: 44px;
+margin-top: 20px;
+font-size:large;
+color: white;
+background-color: #1af325 ;
+border-color: #1af325;
+font-style: initial;
+font-weight: bold;
+width: 300px;
+font-variant-position: normal;
+}
+
+#tabledatalaki1{
+margin-left: 390px;
+
+
+}
+
+#tomboldatacw{
+    margin-left: 44px;
+margin-top: 20px;
+font-size:large;
+color: white;
+background-color: #ee1414 ;
+border-color: #ee1414;
+font-style: initial;
+font-weight: bold;
+width: 300px;
+font-variant-position: normal;
+}
+
+#tabledatacewe1{
+    margin-left: 390px;
+}

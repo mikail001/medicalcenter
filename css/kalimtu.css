@@ -1,0 +1,194 @@
+
+#judul{
+    margin-left: 260px;
+    font-size: xx-large;
+}
+#zscoreimtu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 55%;
+}
+h1{
+    color: rgb(0, 0, 0);
+    size: small;
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    color:#4e4646;
+    font-size: medium;
+    margin-left: 90px;
+}
+
+input{
+
+    font-style: initial;
+    display: inline-block;
+    width: 40%;
+    block-size: 35px;
+    border-style: double;
+}
+
+
+/* kotak input tinggi badan*/
+#tbkonversi{
+    margin-left: 90px;
+    width: 83.5%;
+    margin-bottom: 10px;
+}
+#besarkonversi{
+    margin-right: 90px;
+    margin-left: 20px;
+}
+
+#divkonversicm{
+    margin-left: 90px;
+margin-right: 10px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: initial;
+font-weight: bold;
+width: 100px;
+}
+#hasilkonversicm{
+    background-color: rgb(212, 211, 211);
+    width: 74.1%;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+/* kotak input IMT*/
+#judulimt{
+    color:#4e4646;
+    font-size: medium;
+    margin-left: 640px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+#bbimt{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+#div4{
+    margin-left: 5px;
+margin-right: 5px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: initial;
+font-weight: bold;
+width: 30px;
+}
+#hasilimt{
+    margin-right: 90px;
+    margin-bottom: 10px;
+
+}
+
+/* kotak input angka hitungan atas*/
+#judulhitunganatas{
+    color:#4e4646;
+    font-size: medium;
+    margin-left: 640px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+#mbimt{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+#subimt4{
+    margin-left: 5px;
+margin-right: 5px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: initial;
+font-weight: bold;
+width: 30px;
+}
+#hasilhitunganatas{
+    margin-right: 90px;
+    margin-bottom: 10px;
+
+}
+
+/* kotak input angka hitungan bawah*/
+#judulhitunganbawah{
+    color:#4e4646;
+    font-size: medium;
+    margin-left: 640px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+#sbimt{
+    margin-left: 90px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+
+
+/* kotak hasil*/
+#hasilzcoreimt{
+    background-color: rgb(212, 211, 211);
+    width: 83.5%;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+#div5{
+    margin-left: 90px;
+margin-right: 10px;
+margin-top: 10px;
+font-size:large;
+color: white;
+background-color: #1A68F3 ;
+border-color: #1A68F3;
+font-style: inherit;
+font-weight: bold;
+width: 100px;
+}
+
+#tomboldatalki{
+    margin-left: 44px;
+margin-top: 20px;
+font-size:large;
+color: white;
+background-color: #1af325 ;
+border-color: #1af325;
+font-style: initial;
+font-weight: bold;
+width: 300px;
+font-variant-position: normal;
+}
+
+#tabledatalaki1{
+margin-left: 390px;
+
+
+}
+
+#tomboldatacw{
+    margin-left: 44px;
+margin-top: 20px;
+font-size:large;
+color: white;
+background-color: #ee1414 ;
+border-color: #ee1414;
+font-style: initial;
+font-weight: bold;
+width: 300px;
+font-variant-position: normal;
+}
+
+#tabledatacewe1{
+    margin-left: 390px;
+}
